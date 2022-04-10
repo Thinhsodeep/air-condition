@@ -1,0 +1,276 @@
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+nav#nav1{
+    background-color: white;
+    height: 50px;
+}
+nav#nav2{
+    height: 100px;
+}
+.menu{
+    background-color: rgba(212, 197, 219, 0.664);
+    border: 1px solid rgba(189, 156, 204, 0.664);
+}
+.menu>ul{
+    display: flex;
+    list-style-type: none;
+}
+.menu>ul>li{
+    margin: 37px auto;
+}
+.menu>ul>li>a{
+    color: rgba(17, 16, 29, 0.973);
+    text-decoration: none;
+    padding: 37px 10px;
+    font-size: 25px;
+}
+.menu>ul>li>a:hover{
+    color: rgb(11, 179, 179);
+}
+div#background img{
+    max-height: 900px;
+    min-height: 200px;
+    height: auto;
+    width: 100%;
+}
+hr{
+    border: 2px solid rgba(212, 197, 219, 0.664);
+}
+.thanbai{
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;  
+    margin: 15px;
+    border-radius: 8px;
+    padding: 50px;
+}
+.thanbai>img{
+    width: 100%;
+    max-width: 500px;
+}
+.thanbai>a>img{
+    width: 100%;
+}
+.thanbai>h2{
+    padding: 10px;
+}
+div#phangiua{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h2#khung{
+    background-color: rgba(212, 197, 219, 0.664);
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 2px 50px 0px 0px;
+}
+div#test{
+    width: 100%;
+    width: 350px;
+    padding-left: 15px;
+}
+div#hr{
+    margin-left: 15px;
+}
+.gia{
+    color: red;
+    padding: 15px;
+}
+.hover:hover{
+    transform: scale(1.1);
+}
+footer{
+    background-color: darkgrey;
+}
+div#test>h2{
+    color: red;
+}
+div#footer{
+    display: flex;
+    justify-content: space-around;
+}
+.phancuoi{
+    width: 20%;
+    padding-top: 5px;
+}
+.phancuoi>p{
+    padding: 5px;
+}
+.phancuoi>p>a{
+    text-decoration: none;
+    color: black;
+}
+div#gioithieu{
+    font-size: 30px;
+    background-color: rgba(245, 225, 189, 0.356);
+    width: 70%;
+    padding-top: 15px;
+}
+div#gioithieu>p{
+    padding-top: 10px;
+}
+div#baohanh{
+    background-color:   rgba(212, 197, 219, 0.664) ;
+    padding: 5px;
+}
+div#baohanh>h2{
+    text-decoration: underline;
+}
+div#nentrang3>img{
+    width: 100%;
+}
+div#nentrang3{
+    background-color: rgba(212, 197, 219, 0.664);
+}
+.khoangcach>h1{
+    color: red;
+}
+.dacbiet{
+    font-weight: bold;
+    font-size: 20px;
+}
+.khoangcach{
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(212, 197, 219, 0.664);
+}
+div#baohanh>h2{
+    color: rgb(8, 73, 99);
+    font-size: 35px;
+}
+div#baohanh>h3{
+    color: rgb(7, 143, 206);
+    font-size: 25px;
+    padding-left: 15px;
+}
+div#baohanh>p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+section#gioithieulogo{
+    display: flex;
+    justify-content: space-between;
+}
+section#gioithieulogo>img{
+    width: 30%;
+}
+div#random>img{
+    width: 30%;
+}
+div#random{
+    display: flex;
+}
+div#trongrandom{
+    background-color: rgba(245, 225, 189, 0.356);
+}
+div#trongrandom>h2{
+    font-size: 45px;
+}
+div#trongrandom>p{
+    font-size: 30px;
+    padding: 5px;
+}
+.menu2{
+    background-color: rgba(245, 225, 189, 0.356);
+}
+.menu2>ul{
+    display: flex;
+    list-style-type: none;
+}
+.menu2>ul>li{
+    margin: 37px auto;
+}
+.menu2>ul>li>a{
+    color: rgba(17, 16, 29, 0.973);
+    text-decoration: none;
+    padding: 37px 10px;
+    font-size: 25px;
+}
+.menu2>ul>li>a:hover{
+    color: rgb(11, 179, 179);
+}
+nav#nav3{
+    background-color:rgba(245, 225, 189, 0.356) ;
+    height: 100px;
+}
+.sau{
+    padding-top: 50px;
+}
+nav#nav4{
+    background-color: rgba(212, 197, 219, 0.664);
+    height: 50px;
+}
+div#haiz2{
+    background-color:rgba(245, 225, 189, 0.356) ;
+    width: 70%;
+}
+div#haiz2>h2{
+    font-size: 45px;
+}
+div#haiz2>p{
+    font-size: 25px;
+    padding: 5px;
+}
+div#haiz{
+    display: flex;
+}
+div#haiz>img{
+    width: 40%;
+}
+.khuyenmai{
+    background-color: rgba(212, 197, 219, 0.664);
+    height: 500px;
+    text-align: center;
+}
+.khuyenmai>h1{
+    font-size: 50px;
+    color: red;
+}
+.khuyenmai>p{
+    font-size: 30px;
+    color: red;
+    padding-top: 10px;
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid black;
+}
+.hang{
+    text-align: center;
+    padding: 20px;
+}
+div#button>a{
+    text-align: center;
+    display: block;
+    background-color: red;
+    width: 100px;
+    height: 35px;
+    margin: 0px auto;
+    padding-top: 15px;
+}
+input#thanhtoan{
+    padding: 20px;
+    background-color: red;
+    border-radius: 5px;
+}
+div#button>a{
+    text-decoration: none;
+    color: white;
+}
+div#button>a:hover{
+    background-color: wheat;
+    color: black;
+}
+input{
+    text-align: center;
+}
